@@ -1,10 +1,11 @@
 MiniJackpotManager
 
 Backend
-1. Build the backend code
-2. write in terminal dotnet ef migrations add InitialCreate
-3. write in terminal dotnet ef database update
-4. Run it
+1. Change connection string in appsettings
+2. Build the backend code
+3. write in terminal dotnet ef migrations add InitialCreate
+4. write in terminal dotnet ef database update
+5. Run it
 
 Frontend
 1. build frontend code
