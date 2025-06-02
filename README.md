@@ -2,21 +2,21 @@ MiniJackpotManager
 
 Backend
 1. Build the backend code
-2. dotnet ef migrations add InitialCreate
-3. dotnet ef database update
+2. write in terminal dotnet ef migrations add InitialCreate
+3. write in terminal dotnet ef database update
 4. Run it
 
 Frontend
-5. build frontend code 
-6. npm start
+1. build frontend code
+2. write npm start in the terminal 
 
 Test
-7. Open test project 
-8. run dotnet test
+1. Open test project 
+2. run dotnet test
 
 
 
-To insert data into the database write the following query 
+To insert data into the database write the following query: 
 INSERT INTO Jackpot (Id, Name, SeedValue, HitThreshold, CurrentValue)
 VALUES (1, 'Jackpot A', 100, 1000, 10);
 INSERT INTO Jackpot (Id, Name, SeedValue, HitThreshold, CurrentValue)
